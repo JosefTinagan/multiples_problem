@@ -3,24 +3,24 @@ h1{
 	
 }
 
-.container p{
-
+.container{
+	
 	margin-left: 38%;
 }
+
+
 
 .txt_box{
+	margin-left: 70px;
 	margin-top: 30px;
-	margin-left: 45%;
-}
-
-.btn_submit{
-	margin-top: 30px;
-	margin-left: 30px;
-
+	
 }
 .result_block{
-	margin-left: 38%;
+	margin-left: 70px;
 	height: 150px;
 	width: 300px;
 	background-color: :blue;
 }
+
+/* index.html */
+
