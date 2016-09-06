@@ -12,14 +12,17 @@
 	<p>Enter till what number you want the program to check:</p>
 
 		<div class="txt_box">
-			<form action="#">
-				<input type="text">
-
+			<form id ="frm1" class="frm1" action="#">
+				<input type="text" name="range" class="number_range" value="test">
+				
 			</form>
+
+			<button class="btn_submit" onclick="go()">Submit</button>
 		</div>
 
-		<div class="result">
-			
+		<div class="result_block" id="result_block">
+			<p id="list" class="list"></p>
+			<p id ="result" class="result">Answer:</p>
 		</div>
 	</div>
 
